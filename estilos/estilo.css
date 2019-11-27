@@ -1,0 +1,39 @@
+.titulo1{
+	color:black;
+	font: bold 40px algerian, sans-serif;
+}
+h2{
+	color: black;
+}
+#menu li{
+	
+	font: bold 20px verdana, sans-serif;
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px;
+}
+#menu li a{
+	text-decoration: none;
+	color:white;
+}
+#menu{
+	background: black;
+}
+.titulo2{
+	color:blue;
+	font: bold 30px verdana, sans-serif;
+}
+.menu li a{
+	text-decoration: none;
+	color:white;
+}
+.menu li{
+	
+	font: bold 20px verdana, sans-serif;
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px;
+}
+.cosas{
+	color:white;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>registrarse</title>
+	<link rel="stylesheet" href="estilos/estilo.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<center><h1> REGISTRO DE NUEVO USUARIO</h1></center>
+  <div class="container-fluid"> 
+	<ul class="nav justify-content-end" id="menu">
+  <li class="nav-item">
+    <a class="nav-link active" href="index.html">Inicio</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="index.html">Iniciar Sesión</a>
+  </li>
+</ul>
+  <br><br><br><br>
+<div class="container">
+<form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationTooltip01">NOMBRES:</label>
+      <input type="text" class="form-control">
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationTooltip02">APELLIDOS:</label>
+      <input type="text" class="form-control">
+      <div class="valid-tooltip">
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationTooltipUsername">NOMBRE DE USUARIO:</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+        </div>
+        <input type="text" class="form-control" id="validationTooltipUsername" placeholder="" aria-describedby="validationTooltipUsernamePrepend" required>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Dirección de correo electrónico</label>
+    <input type="email" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Contraseña</label>
+    <input type="password" class="form-control">
+    <small id="passwordHelpInline" class="text-muted">
+      Debe tener entre 8-20 caracteres.
+    </small>
+  </div> 
+  <center><button class="btn btn-outline-dark" type="submit">Registrarse</button></center>
+</form>
+
+  </div>	
+	
+
+
+
+	</div>
+	<script src="js/query.js" ></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/popper.js"></script>
+</body>
+</html>
